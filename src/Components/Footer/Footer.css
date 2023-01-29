@@ -12,8 +12,13 @@
 text-align: center;
 flex: 0.7;
 background-color: white;
-color: rgb(129, 127, 127);
 
+border-radius: 15px;
+background-color: white;
+
+}
+.left_footer_container>p{
+    color: black;
 }
 .left_footer_container>p>span{
     color: red;
@@ -25,8 +30,8 @@ color: rgb(129, 127, 127);
     background-color:purple;
     width: 100%;
     text-align: center;
-   border-top-right-radius: 20px;
-   border-bottom-right-radius: 20px;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
     color: white;
     flex: 0.3;
 }

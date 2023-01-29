@@ -21,13 +21,13 @@ function Top(props) {
             </div>
             <div className='top_second_middle_container'>
               < div className='left_second_middle'>
-             <Avatar  style={{background:"transparent", border:'3px solid red'}}></Avatar>
-             <Avatar  style={{background:"transparent", border:'3px solid blue'}}></Avatar>
+             <Avatar  style={{background:"transparent", border:'3px solid red', width:"30px"}}></Avatar>
+             <Avatar  style={{background:"transparent", border:'3px solid blue' ,width:"30px"}}></Avatar>
               </div>
               <div className='right_second_middle'>
-             <Avatar style={{background:"transparent", color:'black', border:'1px solid '}}>S</Avatar>
-             <Avatar style={{background:"transparent", color:'black', border:'1px solid '}}>L</Avatar>
-             <Avatar style={{background:"transparent", color:'black', border:'1px solid '}}>M</Avatar>
+             <Avatar style={{background:"transparent", color:'black', border:'1px solid ' ,width:"30px"}}>S</Avatar>
+             <Avatar style={{background:"transparent", color:'black', border:'1px solid ' ,width:"30px"}}>L</Avatar>
+             <Avatar style={{background:"transparent", color:'black', border:'1px solid ' ,width:"30px"}}>M</Avatar>
              </div>
             </div>
             <div className='top_bottom_container'>
@@ -46,7 +46,7 @@ function Top(props) {
         </div>
     </div>
     <div className='bot_container'>
-      <Footer decs2={props.desc2} brand={props.brand}/>
+      <Footer detail={props.detail} brand={props.brand}/>
     </div>
     </div>
   )

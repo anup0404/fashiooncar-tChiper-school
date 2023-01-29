@@ -6,7 +6,7 @@ function Footer(props) {
   return (
     <div className="footer_container">
       <div className="left_footer_container">
-        <p>{props.desc2}<br/>
+        <p>{props.detail}<br/>
           <span>{props.brand}</span></p>
       </div>
       <div className="right_footer_container">

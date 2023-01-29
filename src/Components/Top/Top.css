@@ -1,8 +1,13 @@
-.top_container{
+.Main_container{
+   padding: 20px;
+  
+}
+  .top_container{
     border: 3px solid;
     width: 300px;
     height: 500px;
     border-radius: 15px;
+    background-color: white;
 }
 top_head_container{
     flex: 1;
@@ -70,5 +75,6 @@ padding: 10px;
     flex: 1;
     justify-content: space-around;
     width: 100%;
+    margin-top: 30px;
 }
 
