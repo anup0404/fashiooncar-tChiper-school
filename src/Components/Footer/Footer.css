@@ -1,0 +1,35 @@
+.footer_container{
+    display: flex;
+    border: 3px solid black;
+    border-radius: 20px;
+    flex:2.5;
+    width:20%;
+   
+
+
+}
+.left_footer_container{
+text-align: center;
+flex: 0.7;
+background-color: white;
+color: rgb(129, 127, 127);
+
+}
+.left_footer_container>p>span{
+    color: red;
+    font-weight: 700;
+    
+}
+
+.right_footer_container{
+    background-color:purple;
+    width: 100%;
+    text-align: center;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+    color: white;
+    flex: 0.3;
+}
+.right_footer_container>p{
+    font-weight: 800;
+}

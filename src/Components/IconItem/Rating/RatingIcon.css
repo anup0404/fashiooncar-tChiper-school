@@ -1,0 +1,9 @@
+.Icon_container{
+    display: flex;
+    
+   padding:0px 10px;
+  align-items: center;
+}
+.Icon_container>p>span{
+    margin-left: 10px;
+}
